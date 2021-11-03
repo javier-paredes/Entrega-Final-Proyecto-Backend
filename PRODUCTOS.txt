@@ -1,0 +1,44 @@
+{
+    "nombre": "calculadora",
+    "descripcion": "digital",
+    "codigo": "3003",
+    "foto": "https://cdn2.iconfinder.com/data/icons/picol-vector/32/calculator-256.png",
+    "precio": 500,
+    "stock": 1000
+}
+
+{
+    "nombre": "Regla",
+    "descripcion": "15cm",
+    "codigo": "2100",
+    "foto": "https://cdn0.iconfinder.com/data/icons/office-icon-set-2/100/Noun_Project_100Icon_10px_grid-100-256.png",
+    "precio": 20,
+    "stock": 2500
+}
+
+{
+    "nombre": "Mochila",
+    "descripcion": "Roja",
+    "codigo": "5500",
+    "foto": "https://cdn2.iconfinder.com/data/icons/school-179/512/Chool_Bag_bag_education_school_bagpack-256.png",
+    "precio": 2500,
+    "stock": 5000
+}
+
+{
+    "nombre": "Lapiz",
+    "descripcion": "HB",
+    "codigo": "1110",
+    "foto": "https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/edit-change-pencil-256.png",
+    "precio": 15,
+    "stock": 25000    
+}
+
+{
+    "nombre": "Lapicera",
+    "descripcion": "Tinta azul",
+    "codigo": "1500",
+    "foto": "https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-25-256.png",
+    "precio": 15,
+    "stock": 25000   
+}

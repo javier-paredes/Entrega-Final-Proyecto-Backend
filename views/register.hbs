@@ -1,0 +1,36 @@
+<div class="container">
+    <form action="" method="POST" id="form-signup">
+
+        <div class="mb-3">
+            <label for="inputNombre" class="form-label">Ingrese su nombre</label>
+            <input type="text" name="nombre" class="form-control form-text" id="nombre">
+        </div>
+        <div class="mb-3">
+            <label for="inputEmail" class="form-label">Ingrese su email</label>
+            <input type="text" name="username" class="form-control form-text" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="inputPassword" class="form-label">Ingrese su contraseña</label>
+            <input type="password" name="password" class="form-control form-text" id="password">
+        </div>
+        <div class="mb-3">
+            <label for="inputPassword2" class="form-label">Vuelva a ingresar su contraseña</label>
+            <input type="password" name="password2" class="form-control form-text" id="password2" required onkeyup='revisarContraseñas()'>
+        </div>
+        <span id='message'></span>        
+        <div><button class="btn btn-info mt-3">Registrar</button></div>
+</div>
+</form>
+</div>
+
+<script>
+    var revisarContraseñas = function () {
+        if (document.getElementById('password').value == document.getElementById('password2').value) {
+            document.getElementById('message').style.color = 'green';
+            document.getElementById('message').innerHTML = 'Las contraseñas coinciden';
+        } else {
+            document.getElementById('message').style.color = 'red';
+            document.getElementById('message').innerHTML = 'Las contraseñas no son iguales';
+        }
+    }
+</script>
