@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "aa86c74b-84ad-484a-9383-c23cb2afb8e0",
+		"name": "Heroku-proyecto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Carrito LISTAR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/carrito/listar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"carrito",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Carrito GUARDAR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/carrito/agregar/60f9c603d999100c04d3bd3c",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"carrito",
+						"agregar",
+						"60f9c603d999100c04d3bd3c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Carrito ACTUALIZAR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/carrito/actualizar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"carrito",
+						"actualizar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Carrito BORRAR",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/carrito/borrar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"carrito",
+						"borrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Productos LISTAR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/productos/listar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"productos",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Productos GUARDAR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"nombre\": \"Compas\",\r\n    \"descripcion\": \"Punta de lapiz\",\r\n    \"codigo\": \"2525\",\r\n    \"foto\": \"https://cdn0.iconfinder.com/data/icons/sea-13/512/962-05-256.png\",\r\n    \"precio\": 35,\r\n    \"stock\": 800   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/productos/agregar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"productos",
+						"agregar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Productos ACTUALIZAR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/productos/actualizar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"productos",
+						"actualizar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Productos BORRAR",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://proyecto-final-coder.herokuapp.com/productos/borrar",
+					"protocol": "https",
+					"host": [
+						"proyecto-final-coder",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"productos",
+						"borrar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
